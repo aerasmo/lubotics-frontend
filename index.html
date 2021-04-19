@@ -3,22 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 
     <title>Lubotics</title>
-    <link rel="icon" type="image/x-icon" href="res/imgs/greenFinal.ico"/>
+    <link rel="icon" type="image/x-icon" href="/res/imgs/greenFinal.ico"/>
   </head>
 
   <body>
     <!-- https://hackerthemes.com/bootstrap-cheatsheet/ -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
+ 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -30,17 +29,29 @@
         <li class="nav-item">
           <a class="nav-link" href="pages/about.html">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/chlog.html">Changelog</a>
-        </li>
       </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
     </div>
-  </nav>
-  
+  </nav> -->
+  <form class="login-form" action="/pages/home.html"> 
+    <h1> Lubotics </h1>
+    <fieldset disabled>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Email Address</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please Enter your Email Address">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Password</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password must be . . .">
+      </div>
+    </fieldset>
+    
+    <a class="sign-up-link" href="/pages/signup.html"> Click here Sign up </a>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+
+
+
+
   <script src="script.js"></script>
     
   </body>
