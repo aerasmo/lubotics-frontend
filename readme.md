@@ -1,5 +1,4 @@
-# 
-Project for Advance Web Development
+# Project for Advance Web Development
 
 ## Links
 [github link](https://github.com/jyybril/lubotics)
