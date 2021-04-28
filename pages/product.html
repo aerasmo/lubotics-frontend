@@ -10,6 +10,8 @@
     <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/x-icon" href="/res/icons/grayFinal.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
     <title>Lubotics</title>
   </head>
 
@@ -21,7 +23,7 @@
 
     <div class="container-fluid product">
             <!-- left side -->
-            <div class="card col-5 float-left">
+            <div class="card col-6 float-left">
                 <!-- image area -->
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -57,7 +59,9 @@
                 </div>
             </div>
             <div class="product__description col-6 float-left">
-                    
+                <div class="card">
+
+
                 <h3 style="padding-left: 10px"> Aibo </h3> <!--This is the Product Name-->
                 <div id="accordion" role="tablist">
                     <div class="card">
@@ -80,12 +84,12 @@
                     <div class="card">
                       <div class="card-header" role="tab" id="headingTwo">
                         <h5 class="mb-0">
-                          <a class="product__details" data-toggle="collapse" href="#product-features" aria-expanded="false" aria-controls="product-features">
+                          <a class="product__details" data-toggle="collapse" href="#product-features" aria-expanded="true" aria-controls="product-features">
                             Product Features
                           </a>
                         </h5>
                       </div>
-                      <div id="product-features" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div id="product-features" class="collapse show" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="card-body">
                           Life with Aibo
                           <br>
@@ -109,11 +113,16 @@
                           </div>
                         </div>
                       </div>
+                    </div>
 
                       
-                  </div>
+                </div>
         </div>
+    
     </div>
+
+    <div id="nav-footer"></div>
+
     <script src="/js/script.js"></script>
   </body>
 </html>

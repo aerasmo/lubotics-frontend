@@ -24,7 +24,6 @@
 
 				return;
 			}
-
 			if(obj.type == 'css'){
 
 				$('link').each(function(){
