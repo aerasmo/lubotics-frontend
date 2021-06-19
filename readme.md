@@ -5,7 +5,7 @@
 
 ---
 ## Links
-- [backend link] (https://github.com/ptrckstuns/lubotics-backend)
+- [backend link](https://github.com/ptrckstuns/lubotics-backend)
 - [repl preview](https://lubotics.jyybril.repl.co/)
 
 
